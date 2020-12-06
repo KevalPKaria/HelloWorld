@@ -13,7 +13,7 @@ sonarqube {
         property 'sonar.java.source', sourceCompatibility
         property 'sonar.cpd.cross_project', true
         property 'sonar.rootModuleName', 'main'
-        property 'sonar.projectName', 'Example of SonarQube Scanner for Gradle Usage'
+        
     }
 }
 
