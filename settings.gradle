@@ -16,3 +16,8 @@ include 'services:webservice'
 */
 
 rootProject.name = 'sonarqube-scanner-gradle'
+gradle.allprojects {
+    repositories {
+        jcenter()
+    }
+}
